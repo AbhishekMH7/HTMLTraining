@@ -1,0 +1,32 @@
+
+    .divt{
+    margin: 100px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: inherit;
+    border-block: solid;
+    border-left: solid;
+    border-right: solid;
+    background-color: antiquewhite;
+
+}
+label{
+    margin: 10px 10px;
+}
+
+h1{
+    border-block: dotted;
+    text-align: center;
+    font-style: italic;
+}
+#btndv{
+    text-align: center;
+}
+#btn{
+    background: border-box;
+    background-color: moccasin;
+}
+input{
+    border-block-end: unset;
+}
+ 

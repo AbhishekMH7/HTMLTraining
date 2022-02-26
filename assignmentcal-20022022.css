@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+}
+.block{
+    text-align: center;
+    margin: 100px auto;
+    width: 250px;
+    height: fit-content;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:#7f8d78;
+    border-width: medium;
+    border-color: darkslategrey;
+}
+.inp{
+    border: solid;
+    border-bottom-right-radius: 10px;
+    border-block-end-style: initial;
+}
+#btn{
+    background-color: navajowhite;
+    width: 100px;
+    height: 30px;
+}

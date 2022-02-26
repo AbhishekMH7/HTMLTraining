@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assignmentcal-20022022.css" />
+    <script src="./assignmentcal-20022022.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="block">
+        <div>
+            <label>Enter number1:</label>
+        </div>
+        <div>
+            <input class="inp" id="n1" type="text">
+        </div>
+        <div>
+            <label>Enter number2:</label>
+        </div>
+        <div>
+            <input class="inp" id="n2" type="text">
+        </div>
+        <div>
+            <label>Enter number3:</label>
+        </div>
+        <div>
+            <input class="inp" id="n3" type="text">
+        </div><br>
+        <div>
+            <Label>Action:</Label>
+            <select id="operators" class="inp">
+                <option value="add">Addition</option>
+                <option value="sub">Subtraction</option>
+                <option value="mul">multiplication</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="button" value="Result" id="btn" onclick="cal()">
+        </div><br>
+       </div>
+    <div id="result">
+    </div>
+</body>
+</html>

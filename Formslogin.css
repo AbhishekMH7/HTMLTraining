@@ -8,6 +8,7 @@
     border-left: solid;
     border-right: solid;
     background-color: antiquewhite;
+    border-radius: 15px;
 
 }
 label{
@@ -15,18 +16,21 @@ label{
 }
 
 h1{
-    border-block: dotted;
+    background-color: aliceblue;
+    border-block-style: inherit;
     text-align: center;
-    font-style: italic;
+    font-style: ;
 }
 #btndv{
     text-align: center;
 }
 #btn{
     background: border-box;
-    background-color: moccasin;
+    background-color: rgb(28, 119, 180);
 }
-input{
+.txt{
     border-block-end: unset;
+    float: right;
+    margin-right: 65px;
 }
  

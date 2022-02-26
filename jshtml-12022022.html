@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    // var popup=function(){
+    //     alert("done")
+    // }
+function u(){
+    var un1=document.getElementById("txt1");
+    var un2=document.getElementById("txt2");
+    var un3=document.getElementById("txt3");
+    var un4=document.getElementById("txt4");
+    var un5=document.getElementById("txt5");
+    var box=document.getElementById("disp");
+    disp.innerHTML=un1.value+" "+un2.value+" "+un3.value+" "+un4.value+" "+un5.value;
+    // var newrow=disp.insertrow(0);
+    // var c1=newrow.insertcell(0);
+    // var c2=newrow.insertcell(1);
+    // var c3=newrow.insertcell(2);
+    // var c4=newrow.insertcell(3);
+    // var c5=newrow.insertcell(4);
+ 
+    // c1.innerHTML=un1;
+    // c2.innerHTML=un2;
+    // c3.innerHTML=un3;
+    // c4.innerHTML=un4;
+    // c5.innerHTML=un5;    
+}
+
+</script>
+<body>
+    
+    <forms>
+        <div>
+            <div>
+            <label >Username:</label>
+            </div>
+            <input type="text" id="txt1"/>
+        </div>
+        <div>
+            <div>
+            <label >password:</label>
+            </div>
+            <input type="password" id="txt2" />
+        </div>
+        <div>
+            <div>
+            <label >Email:</label>
+            </div>
+            <input type="text" id="txt3" />
+        </div>
+        <div>
+            <div>
+            <label >Dateofbirth:</label>
+            </div>
+            <input type="text" id="txt4" />
+        </div>
+        <div>
+            <div>
+            <label >Address:</label>
+            </div>
+            <input type="text" id="txt5" />
+        </div>
+        <div>
+    <input type="button" onclick="u()" value="submit" /></br>
+    </div>
+    <!-- <div>
+        <table id="'disp">
+          <tr>
+              <td>Username</td>
+              <td>Password</td>
+              <td>Email</td>
+              <td>Dateofbirth</td>
+              <td>Address</td>
+          </tr>
+        </table>
+    </div> -->
+    <div id="disp"></div>
+
+</body>
+</html>

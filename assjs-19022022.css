@@ -1,0 +1,35 @@
+.divt{
+    text-align: center;
+    margin: 100px auto;
+    width: 250px;
+    height: fit-content;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:#0f9d58;
+}
+.inp{
+    border: solid;
+    border-bottom-right-radius: 10px;
+    border-block-end-style: initial;
+}
+.lbl{
+    font-size: larger;
+}
+#postdisplay{
+
+    display:none;
+
+}
+#divtt{
+    text-align: left;
+    margin: 100px auto;
+    width: 250px;
+    height: fit-content;
+    border-style: solid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    background-color:#4d99c5;
+}
